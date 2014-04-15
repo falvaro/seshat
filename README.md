@@ -11,11 +11,11 @@ http://cat.prhlt.upv.es/mer/
 where *seshat* is the underlying engine.
 
 This parser has been developed by Francisco Álvaro as part of his PhD
-thesis. Hi is a member of the [PRHLT research group] [1] at
-Universitat Politècnica de València [2].
+thesis. He is a member of the [PRHLT research group] [1] at
+[Universitat Politècnica de València] [2].
 
 *Seshat* represents a state-of-the-art system that has recently
-participated in several international competitions [3]. It was awarded
+participated in several [international competitions] [3]. It was awarded
 the best system using training set in
 
 - Mouchère H., Viard-Gaudin C., Zanibbi R., Garain U., Kim D. H. and Kim J. H.
