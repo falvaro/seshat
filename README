@@ -1,0 +1,46 @@
+------------------------------------------------------------------------
+SESHAT - Handwritten math expression parser
+Copyright (C) 2014, Francisco Alvaro
+------------------------------------------------------------------------
+
+More information at https://github.com/falvaro/seshat
+
+----------------
+License: Seshat is released under the license GPLv3 (see LICENSE file)
+
+----------------
+Requirements:
+- Compilation tools: makefile and g++
+- Xerces-c library for parsing XML.
+- Boost libraries for RNNLIB (must be in include path or it should be added 
+in the FLAGS variable of Makefile file).
+
+----------------
+Usage: ./seshat -c config -i input [-o output] [-r render.pgm]
+
+  -c config: set the configuration file
+  -i input:  set the input math expression file
+  -o output: save recognized expression to 'output' file (InkML format)
+  -r render: save in 'render' the image representing the input expression (PGM format)
+  -d graph:  save in 'graph' the description of the recognized tree (DOT format)
+
+----------------
+Example:
+There are two example math expressions in folder "SampleMathExps". The following command
+will recognize the expression (x+y)^2 encoded in "exp.scgink"
+
+$ ./seshat -c Config/CONFIG -i SampleMathExps/exp.scgink -o out.inkml -r render.pgm -d out.dot
+
+This command outputs several information through the standard output, where the last line will
+provide the LaTeX string of the recognized math expression.
+
+An image representation of the input strokes will be rendered in "render.pgm".
+
+The InkML file of the recognized math expression will be saved in "out.inkml".
+
+The derivation tree of the expression provided as a graph in DOT format will be saved in "out.dot".
+The representation of the graph in, for example, postscript format can be obtained as follows
+
+$ dot -o out.ps out.dot -Tps
+
+It should be noted that only options "-c" and "-i" are mandatory.

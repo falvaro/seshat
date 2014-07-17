@@ -1,0 +1,723 @@
+2dot
+ArrTerm
+Arrow
+Bar
+BigOp
+BigOpSub
+BigOpSup
+BigOpTerm
+BigOpV
+BrTerm
+CDots
+CloseBckt
+CloseBra
+ClosePar
+ComListR
+Comma
+DBar
+DeSeDig
+DecSep
+Digit
+Dot
+Facto
+Float
+Greek
+LDots
+LetterCap
+LetterMin
+Limit
+ListR
+Mroot
+OpBin
+OpDots
+OpSum
+OpSym
+OpTerm
+OpUn
+OpenBckt
+OpenBra
+OpenPar
+Prime
+Sqrt
+SubLimit
+Sym
+Term
+TermB
+TermBar
+TermBckt
+TermBra
+TermDBar
+TermP
+TermPar
+TermSSE
+TermSub
+TermSup
+UnTerm
+VFrac
+VeFrac
+an
+co
+hl_dot
+hline
+im
+in
+leta
+letc
+letg
+leti
+letl
+letm
+letn
+leto
+lets
+lett
+li
+lo
+og
+os
+sgt
+si
+slt
+ta
+
+START
+Term
+Sym
+UnTerm
+TermSub
+TermSup
+TermSSE
+
+PTERM
+0.05751515 Digit 0 0
+0.18358371 Digit 1 1
+0.34127313 Digit 2 2
+0.12341273 Digit 3 3
+0.07992364 Digit 4 4
+0.04830276 Digit 5 5
+0.04224417 Digit 6 6
+0.03809445 Digit 7 7
+0.03767947 Digit 8 8
+0.03875840 Digit 9 9
+0.09713901 LetterMin a a
+0.05519772 LetterMin b b
+0.02913421 LetterMin c c
+0.05984122 LetterMin d d
+0.01325644 LetterMin e e
+0.03392750 LetterMin f f
+0.01512882 LetterMin g g
+0.01145896 LetterMin h h
+0.03579988 LetterMin i i
+0.00973637 LetterMin j j
+0.02621330 LetterMin k k
+0.00426902 LetterMin l l
+0.01812463 LetterMin m m
+0.06935290 LetterMin n n
+0.00396944 LetterMin o o
+0.01992211 LetterMin p p
+0.00966147 LetterMin q q
+0.02621330 LetterMin r r
+0.00951168 LetterMin s s
+0.02778610 LetterMin t t
+0.01078490 LetterMin u u
+0.01003595 LetterMin v v
+0.00486818 LetterMin w w
+0.17735171 LetterMin x x
+0.05429898 LetterMin y y
+0.03647394 LetterMin z z
+0.10351035 LetterCap A A
+0.06840684 LetterCap B B
+0.10621062 LetterCap C C
+0.05760576 LetterCap E E
+0.08010801 LetterCap F F
+0.03330333 LetterCap G G
+0.02880288 LetterCap H H
+0.02250225 LetterCap I I
+0.05580558 LetterCap L L
+0.03690369 LetterCap M M
+0.03960396 LetterCap N N
+0.04410441 LetterCap P P
+0.07290729 LetterCap R R
+0.03960396 LetterCap S S
+0.03870387 LetterCap T T
+0.03240324 LetterCap V V
+0.10621062 LetterCap X X
+0.03330333 LetterCap Y Y
+0.18756269 Greek \alpha \alpha
+0.13640922 Greek \beta \beta
+0.01705115 Greek \Delta \Delta
+0.03410231 Greek \gamma \gamma
+0.00702106 Greek \lambda \lambda
+0.02206620 Greek \mu \mu
+0.04212638 Greek \phi \phi
+0.27582750 Greek \pi \pi
+0.01504514 Greek \sigma \sigma
+0.26278836 Greek \theta \theta
+1.00000000 hline - -
+1.00000000 Limit \lim \lim
+1.00000000 Sqrt \sqrt \sqrt
+1.00000000 Arrow \rightarrow \rightarrow
+1.00000000 Facto ! !
+0.50941783 BigOp \sum \sum
+0.49058220 BigOp \int \int
+0.00990375 OpBin \div \div
+0.03898731 OpBin \times \times
+0.01269354 OpBin dbar /
+0.02503836 OpBin dot \cdot
+0.23803878 OpBin - -
+0.00906682 OpBin \pm \pm
+0.35116473 OpBin + +
+0.23678337 OpBin equal =
+0.00704422 OpBin \neq \neq
+0.01436742 OpBin \leq \leq
+0.00697447 OpBin \lt \lt
+0.00369647 OpBin \gt \gt
+0.00969452 OpBin \geq \geq
+0.00083694 OpBin \in \in
+0.00132515 OpBin \rightarrow \rightarrow
+0.03382619 OpBin comma COMMA
+0.00055796 OpBin dots \cdots
+0.06456044 OpUn + +
+0.89697802 OpUn - -
+0.02472528 OpUn \pm \pm
+0.00961538 OpUn \forall \forall
+0.00412088 OpUn \exists \exists
+0.56542057 CDots dots \cdots
+0.33333334 LDots dots \ldots
+1.00000000 Comma comma COMMA
+0.50000000 DecSep dot .
+0.50000000 DecSep comma COMMA
+1.00000000 Prime \prime \prime
+1.00000000 Bar | |
+1.00000000 OpenPar lpar (
+1.00000000 ClosePar rpar )
+1.00000000 OpenBra lbrace \{
+1.00000000 CloseBra rbrace \}
+1.00000000 OpenBckt lbracket [
+1.00000000 CloseBckt rbracket ]
+0.01562920 Sym \infty \infty
+0.00134348 Sym \log \log
+0.00085087 Sym \sin \sin
+0.00076131 Sym \cos \cos
+0.00094044 Sym \tan \tan
+0.00004478 Sym \tg \tg
+0.00671742 Sym A A
+0.00649351 Sym B B
+0.00550829 Sym C C
+0.00331393 Sym E E
+0.00317958 Sym F F
+0.00206001 Sym G G
+0.00277653 Sym H H
+0.00179131 Sym I I
+0.00291088 Sym L L
+0.00246305 Sym M M
+0.00380654 Sym N N
+0.00232871 Sym P P
+0.00416480 Sym R R
+0.00295567 Sym S S
+0.00219436 Sym T T
+0.00273175 Sym V V
+0.00680699 Sym X X
+0.00340349 Sym Y Y
+0.04585759 Sym a a
+0.03421406 Sym b b
+0.02207792 Sym c c
+0.00886699 Sym d d
+0.01182266 Sym e e
+0.00841917 Sym f f
+0.00407524 Sym g g
+0.00438871 Sym h h
+0.01939095 Sym i i
+0.00707568 Sym j j
+0.01088222 Sym k k
+0.00241827 Sym l l
+0.00958352 Sym m m
+0.05266458 Sym n n
+0.00232871 Sym o o
+0.01186744 Sym p p
+0.00712047 Sym q q
+0.00483654 Sym r r
+0.00420958 Sym s s
+0.01222571 Sym t t
+0.00689655 Sym u u
+0.00564263 Sym v v
+0.00304523 Sym w w
+0.10658307 Sym x x
+0.04128974 Sym y y
+0.02297358 Sym z z
+0.00765786 Sym \alpha \alpha
+0.00609046 Sym \beta \beta
+0.00071652 Sym \Delta \Delta
+0.00219436 Sym \gamma \gamma
+0.00085087 Sym \lambda \lambda
+0.00098522 Sym \mu \mu
+0.00161218 Sym \phi \phi
+0.00877743 Sym \pi \pi
+0.00143305 Sym \sigma \sigma
+0.01146440 Sym \theta \theta
+0.04393193 Sym 0 0
+0.16103896 Sym 1 1
+0.07519033 Sym 2 2
+0.03699059 Sym 3 3
+0.02619794 Sym 4 4
+0.01665920 Sym 5 5
+0.01097179 Sym 6 6
+0.01074787 Sym 7 7
+0.01030004 Sym 8 8
+0.00980743 Sym 9 9
+0.00067406 LetterMin \infty \infty
+0.01932295 LetterMin \log \log
+0.05310066 LetterMin \sin \sin
+0.03931995 LetterMin \cos \cos
+0.01797483 LetterMin \tan \tan
+0.00007490 LetterMin \tg \tg
+1.00000000 OpSum + +
+1.00000000 letc c c
+0.50000000 leto o o
+0.50000000 leto 0 o
+0.33333334 lets s s
+0.33333334 lets S s
+0.33333334 lets 5 s
+0.50000000 leti i i
+0.50000000 leti 1 i
+1.00000000 letn n n
+1.00000000 lett t t
+1.00000000 lett + t
+1.00000000 leta a a
+0.50000000 letl l l
+0.50000000 letl 1 l
+1.00000000 letm m m
+1.00000000 letg g g
+1.00000000 slt \lt \lt
+1.00000000 sgt \gt \gt
+1.00000000 Dot dot .
+
+PBIN
+0.06462269 H Term Term OpTerm "$1 $2" M
+0.00365840 H Term TermSSE OpTerm "$1 $2" M
+0.02792945 H Term TermSub OpTerm "$1 $2" M
+0.03947800 H Term TermSup OpTerm "$1 $2" M
+0.02506279 H Term Term OpSym "$1 $2" M
+0.00030032 H Term TermSSE OpSym "$1 $2" M
+0.00379491 H Term TermSub OpSym "$1 $2" M
+0.00835426 H Term TermSup OpSym "$1 $2" M
+0.11351971 H Term Sym OpTerm "$1 $2" M
+0.09915911 H Term Sym OpSym "$1 $2" M
+0.79172504 H OpTerm OpBin Term "$1 $2" M
+0.00387889 H OpTerm OpBin TermSSE "$1 $2" M
+0.08415041 H OpTerm OpBin TermSub "$1 $2" M
+0.09955823 H OpTerm OpBin TermSup "$1 $2" M
+1.00000000 H OpSym OpBin Sym "$1 $2" M
+0.00008190 H Term Term OpDots "$1 $2" M
+0.00002730 H Term TermSSE OpDots "$1 $2" M
+0.00008190 H Term TermSub OpDots "$1 $2" M
+0.00002730 H Term TermSup OpDots "$1 $2" M
+0.00008190 H Term Sym OpDots "$1 $2" M
+0.00002730 Sup Term LDots OpTerm "$1 $2" B
+0.00417713 H Term CDots OpTerm "$1 $2" M
+0.00002730 Sup Term LDots OpSym "$1 $2" B
+0.00114666 H Term CDots OpSym "$1 $2" M
+0.11111111 Sub OpDots OpBin LDots "$1 $2" A
+1.00000000 H OpDots OpBin CDots "$1 $2" M
+0.03966910 H Term Term Term "$1 $2" M
+0.00040952 H Term TermSSE Term "$1 $2" M
+0.00005460 H Term Term TermSSE "$1 $2" M
+0.00002730 H Term TermSSE TermSSE "$1 $2" M
+0.00128317 H Term Term TermSub "$1 $2" M
+0.00002730 H Term TermSSE TermSub "$1 $2" M
+0.00455935 H Term Term TermSup "$1 $2" M
+0.00002730 H Term TermSSE TermSup "$1 $2" M
+0.01780264 H TermSub TermSub TermSub "$1 $2" M
+0.00915565 H TermSub TermSub TermSup "$1 $2" M
+0.13199389 H TermSub TermSub Term "$1 $2" M
+0.00381485 H TermSub TermSub TermSSE "$1 $2" M
+0.00174048 H TermSup TermSup TermSub "$1 $2" M
+0.01682460 H TermSup TermSup TermSup "$1 $2" M
+0.07716109 H TermSup TermSup Term "$1 $2" M
+0.00019339 H TermSup TermSup TermSSE "$1 $2" M
+0.00802139 H UnTerm UnTerm Term "$1 $2" M
+0.00133690 H UnTerm UnTerm TermSSE "$1 $2" M
+0.00267380 H UnTerm UnTerm TermSub "$1 $2" M
+0.00133690 H UnTerm UnTerm TermSup "$1 $2" M
+0.08034837 H Term Digit Term "$1$2" M
+0.00005460 H Term Digit TermSSE "$1 $2" M
+0.00131047 H Term Digit TermSub "$1 $2" M
+0.00559681 H Term Digit TermSup "$1 $2" M
+0.06598777 H Term LetterMin Term "$1 $2" M
+0.00008190 H Term LetterMin TermSSE "$1 $2" M
+0.00221142 H Term LetterMin TermSub "$1 $2" M
+0.00308507 H Term LetterMin TermSup "$1 $2" M
+0.00559681 H Term LetterCap Term "$1 $2" M
+0.00002730 H Term LetterCap TermSSE "$1 $2" M
+0.00060063 H Term LetterCap TermSub "$1 $2" M
+0.00013651 H Term LetterCap TermSup "$1 $2" M
+0.00289396 H Term Greek Term "$1 $2" M
+0.00002730 H Term Greek TermSSE "$1 $2" M
+0.00013651 H Term Greek TermSub "$1 $2" M
+0.00223872 H Term Greek TermSup "$1 $2" M
+0.00133690 H UnTerm UnTerm Digit "$1 $2" M
+0.00668449 H UnTerm UnTerm LetterMin "$1 $2" M
+0.00534759 H UnTerm UnTerm LetterCap "$1 $2" M
+0.00267380 H UnTerm UnTerm Greek "$1 $2" M
+0.00024571 H Term Term Digit "$1 $2" M
+0.00002730 H Term TermSSE Digit "$1 $2" M
+0.00127162 H TermSub TermSub Digit "$1 $2" M
+0.00096693 H TermSup TermSup Digit "$1 $2" M
+0.00709839 H Term Term LetterMin "$1 $2" M
+0.00002730 H Term TermSSE LetterMin "$1 $2" M
+0.00432350 H TermSub TermSub LetterMin "$1 $2" M
+0.02533359 H TermSup TermSup LetterMin "$1 $2" M
+0.00174730 H Term Term LetterCap "$1 $2" M
+0.00002730 H Term TermSSE LetterCap "$1 $2" M
+0.00050865 H TermSub TermSub LetterCap "$1 $2" M
+0.00116032 H TermSup TermSup LetterCap "$1 $2" M
+0.00248444 H Term Term Greek "$1 $2" M
+0.00002730 H Term TermSSE Greek "$1 $2" M
+0.00025432 H TermSub TermSub Greek "$1 $2" M
+0.00599497 H TermSup TermSup Greek "$1 $2" M
+0.04384624 H Term Digit Digit "$1$2" M
+0.00903680 H Term Digit LetterMin "$1 $2" M
+0.00040952 H Term Digit LetterCap "$1 $2" M
+0.00144698 H Term Digit Greek "$1 $2" M
+0.00002730 H Term LetterMin Digit "$1 $2" M
+0.02973135 H Term LetterMin LetterMin "$1 $2" M
+0.00647046 H Term LetterMin LetterCap "$1 $2" M
+0.00707109 H Term LetterMin Greek "$1 $2" M
+0.00002730 H Term LetterCap Digit "$1 $2" M
+0.00122857 H Term LetterCap LetterMin "$1 $2" M
+0.00065524 H Term LetterCap LetterCap "$1 $2" M
+0.00008190 H Term LetterCap Greek "$1 $2" M
+0.00002730 H Term Greek Digit "$1 $2" M
+0.00166539 H Term Greek LetterMin "$1 $2" M
+0.00016381 H Term Greek LetterCap "$1 $2" M
+0.00008190 H Term Greek Greek "$1 $2" M
+0.09011797 Sup TermSup Sym Term "$1^{$2}" A
+0.00019339 Sup TermSup Sym TermSSE "$1^{$2}" A
+0.01160317 Sup TermSup Sym TermSup "$1^{$2}" A
+0.00734868 Sup TermSup Sym TermSub "$1^{$2}" A
+0.10503560 Sub TermSub Sym Term "$1_{$2}" A
+0.00025432 Sub TermSub Sym TermSSE "$1_{$2}" A
+0.00152594 Sub TermSub Sym TermSup "$1_{$2}" A
+0.00991862 Sub TermSub Sym TermSub "$1_{$2}" A
+0.01276349 Sup TermSup BrTerm Term "$1^{$2}" A
+0.00019339 Sup TermSup BrTerm TermSSE "$1^{$2}" A
+0.00019339 Sup TermSup BrTerm TermSup "$1^{$2}" A
+0.00038677 Sup TermSup BrTerm TermSub "$1^{$2}" A
+0.00050865 Sub TermSub BrTerm Term "$1_{$2}" A
+0.00025432 Sub TermSub BrTerm TermSSE "$1_{$2}" A
+0.00025432 Sub TermSub BrTerm TermSub "$1_{$2}" A
+0.00025432 Sub TermSub BrTerm TermSup "$1_{$2}" A
+0.05646877 Sup TermSup BrTerm Digit "$1^{$2}" A
+0.02939470 Sup TermSup BrTerm LetterMin "$1^{$2}" A
+0.00077354 Sup TermSup BrTerm LetterCap "$1^{$2}" A
+0.00077354 Sup TermSup BrTerm Greek "$1^{$2}" A
+0.00025432 Sub TermSub BrTerm Digit "$1_{$2}" A
+0.00025432 Sub TermSub BrTerm LetterMin "$1_{$2}" A
+0.00025432 Sub TermSub BrTerm LetterCap "$1_{$2}" A
+0.00025432 Sub TermSub BrTerm Greek "$1_{$2}" A
+0.03403597 Sup TermSup Digit Digit "$1^{$2}" A
+0.03983755 Sup TermSup Digit LetterMin "$1^{$2}" A
+0.00019339 Sup TermSup Digit LetterCap "$1^{$2}" A
+0.00038677 Sup TermSup Digit Greek "$1^{$2}" A
+0.00025432 Sub TermSub Digit Digit "$1_{$2}" A
+0.00254323 Sub TermSub Digit LetterMin "$1_{$2}" A
+0.00025432 Sub TermSub Digit LetterCap "$1_{$2}" A
+0.00076297 Sub TermSub Digit Greek "$1_{$2}" A
+0.45020306 Sup TermSup LetterMin Digit "$1^{$2}" A
+0.08025527 Sup TermSup LetterMin LetterMin "$1^{$2}" A
+0.00599497 Sup TermSup LetterMin LetterCap "$1^{$2}" A
+0.00251402 Sup TermSup LetterMin Greek "$1^{$2}" A
+0.39165819 Sub TermSub LetterMin Digit "$1_{$2}" A
+0.19684640 Sub TermSub LetterMin LetterMin "$1_{$2}" A
+0.01093591 Sub TermSub LetterMin LetterCap "$1_{$2}" A
+0.00559512 Sub TermSub LetterMin Greek "$1_{$2}" A
+0.01527751 Sup TermSup LetterCap Digit "$1^{$2}" A
+0.00522143 Sup TermSup LetterCap LetterMin "$1^{$2}" A
+0.00309418 Sup TermSup LetterCap LetterCap "$1^{$2}" A
+0.00058016 Sup TermSup LetterCap Greek "$1^{$2}" A
+0.01144456 Sub TermSub LetterCap Digit "$1_{$2}" A
+0.02848423 Sub TermSub LetterCap LetterMin "$1_{$2}" A
+0.00686673 Sub TermSub LetterCap LetterCap "$1_{$2}" A
+0.00228891 Sub TermSub LetterCap Greek "$1_{$2}" A
+0.00618836 Sup TermSup Greek Digit "$1^{$2}" A
+0.00212725 Sup TermSup Greek LetterMin "$1^{$2}" A
+0.00058016 Sup TermSup Greek LetterCap "$1^{$2}" A
+0.00019339 Sup TermSup Greek Greek "$1^{$2}" A
+0.02644964 Sub TermSub Greek Digit "$1_{$2}" A
+0.02034588 Sub TermSub Greek LetterMin "$1_{$2}" A
+0.00076297 Sub TermSub Greek LetterCap "$1_{$2}" A
+0.00025432 Sub TermSub Greek Greek "$1_{$2}" A
+1.00000000 Mrt Mroot Sqrt Sym "\sqrt[$2]" B
+0.02604565 Ins Term Sqrt Term "$1{$2}" B
+0.00002730 Ins Term Sqrt TermSSE "$1{$2}" B
+0.00024571 Ins Term Sqrt TermSub "$1{$2}" B
+0.00090095 Ins Term Sqrt TermSup "$1{$2}" B
+0.01608059 Ins Term Sqrt Sym "$1{$2}" B
+0.00040952 Ins Term Sqrt UnTerm "$1{$2}" B
+0.00131047 Ins Term Mroot Term "$1{$2}" B
+0.00002730 Ins Term Mroot TermSSE "$1{$2}" B
+0.00002730 Ins Term Mroot TermSub "$1{$2}" B
+0.00005460 Ins Term Mroot TermSup "$1{$2}" B
+0.00092825 Ins Term Mroot Sym "$1{$2}" B
+0.00005460 Ins Term Mroot UnTerm "$1{$2}" B
+0.03008627 V Term Term VeFrac "\frac{$1}{$2}" B
+0.00035492 V Term TermSSE VeFrac "\frac{$1}{$2}" B
+0.00316698 V Term TermSub VeFrac "\frac{$1}{$2}" B
+0.00447745 V Term TermSup VeFrac "\frac{$1}{$2}" B
+0.00240253 V Term UnTerm VeFrac "\frac{$1}{$2}" B
+0.05064432 V Term Sym VeFrac "\frac{$1}{$2}" B
+0.00027302 Ve Term Term VFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term TermSSE VFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term TermSub VFrac "\frac{$1}{$2}" B
+0.00016381 Ve Term TermSup VFrac "\frac{$1}{$2}" B
+0.00005460 Ve Term UnTerm VFrac "\frac{$1}{$2}" B
+0.00013651 Ve Term Sym VFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term Term VeFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term TermSSE VeFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term TermSub VeFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term TermSup VeFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term UnTerm VeFrac "\frac{$1}{$2}" B
+0.00002730 Ve Term Sym VeFrac "\frac{$1}{$2}" B
+0.25000000 V VFrac hline Term "$2" A
+0.04166667 V VFrac hline TermSSE "$2" A
+0.04166667 V VFrac hline TermSub "$2" A
+0.08333334 V VFrac hline TermSup "$2" A
+0.08333334 V VFrac hline UnTerm "$2" A
+0.58333331 V VFrac hline Sym "$2" A
+0.39904135 Ve VeFrac hline Term "$2" A
+0.01108448 Ve VeFrac hline TermSSE "$2" A
+0.03804674 Ve VeFrac hline TermSub "$2" A
+0.06590773 Ve VeFrac hline TermSup "$2" A
+0.00479329 Ve VeFrac hline UnTerm "$2" A
+0.48112643 Ve VeFrac hline Sym "$2" A
+0.82331514 H BrTerm OpenPar TermPar "$1 $2" M
+0.01092896 H BrTerm Bar TermBar "$1 $2" M
+0.00182149 H BrTerm DBar TermDBar "$1 $2" M
+0.05282332 H BrTerm OpenBra TermBra "$1 $2" M
+0.11293261 H BrTerm OpenBckt TermBckt "$1 $2" M
+0.66549772 H TermPar Term ClosePar "$1 $2" M
+0.00053952 H TermPar TermSSE ClosePar "$1 $2" M
+0.70792079 H TermBar Term Bar "$1 $2" M
+0.00495049 H TermBar TermSSE Bar "$1 $2" M
+0.16666667 H TermDBar Term DBar "$1 $2" M
+0.16666667 H TermDBar TermSSE DBar "$1 $2" M
+0.92063493 H TermBra Term CloseBra "$1 $2" M
+0.01587302 H TermBra TermSSE CloseBra "$1 $2" M
+0.42162162 H TermBckt Term CloseBckt "$1 $2" M
+0.00540541 H TermBckt TermSSE CloseBckt "$1 $2" M
+0.01645535 H TermPar UnTerm ClosePar "$1 $2" M
+0.00495049 H TermBar UnTerm Bar "$1 $2" M
+0.16666667 H TermDBar UnTerm DBar "$1 $2" M
+0.01587302 H TermBra UnTerm CloseBra "$1 $2" M
+0.02162162 H TermBckt UnTerm CloseBckt "$1 $2" M
+0.03075263 H TermPar TermSub ClosePar "$1 $2" M
+0.00990099 H TermBar TermSub Bar "$1 $2" M
+0.16666667 H TermDBar TermSub DBar "$1 $2" M
+0.03174603 H TermBra TermSub CloseBra "$1 $2" M
+0.03243243 H TermBckt TermSub CloseBckt "$1 $2" M
+0.01591584 H TermPar TermSup ClosePar "$1 $2" M
+0.00495049 H TermBar TermSup Bar "$1 $2" M
+0.16666667 H TermDBar TermSup DBar "$1 $2" M
+0.01587302 H TermBra TermSup CloseBra "$1 $2" M
+0.17837837 H TermBckt TermSup CloseBckt "$1 $2" M
+0.27083895 H TermPar Sym ClosePar "$1 $2" M
+0.28217822 H TermBar Sym Bar "$1 $2" M
+0.16666667 H TermDBar Sym DBar "$1 $2" M
+0.04761905 H TermBra Sym CloseBra "$1 $2" M
+0.34594595 H TermBckt Sym CloseBckt "$1 $2" M
+1.00000000 H DBar Bar Bar "$1$2" M
+0.08886644 H Term OpenPar TermPar "$1 $2" M
+0.00535110 H Term Bar TermBar "$1 $2" M
+0.00002730 H Term DBar TermDBar "$1 $2" M
+0.00092825 H Term OpenBra TermBra "$1 $2" M
+0.00335809 H Term OpenBckt TermBckt "$1 $2" M
+0.00073714 H Term Term Facto "$1$2" M
+0.00002730 H Term TermSSE Facto "$1$2" M
+0.00169269 H Term Sym Facto "$1$2" M
+0.00096693 Sup TermSup Term Prime "$1^{$2}" M
+0.00019339 Sup TermSup TermSSE Prime "$1^{$2}" M
+0.01257010 Sup TermSup Sym Prime "$1^{$2}" M
+0.01428571 H Prime Prime Prime "$1$2" M
+0.44786096 H UnTerm OpUn Term "$1 $2" M
+0.00133690 H UnTerm OpUn TermSSE "$1 $2" M
+0.01604278 H UnTerm OpUn TermSub "$1 $2" M
+0.02272727 H UnTerm OpUn TermSup "$1 $2" M
+0.48663101 H UnTerm OpUn Sym "$1 $2" M
+0.00019339 Sup TermSup Sym UnTerm "$1^{$2}" A
+0.00025432 Sub TermSub Sym UnTerm "$1_{$2}" A
+0.00019339 Sup TermSup BrTerm UnTerm "$1^{$2}" A
+0.00025432 Sub TermSub BrTerm UnTerm "$1_{$2}" A
+0.02068743 H OpTerm OpBin UnTerm "$1 $2" M
+0.03987730 Sup TermP Sym Term "$1^{$2}" A
+0.00306748 Sup TermP Sym TermSSE "$1^{$2}" A
+0.00613497 Sup TermP Sym TermSub "$1^{$2}" A
+0.00306748 Sup TermP Sym TermSup "$1^{$2}" A
+0.06134969 Sub TermB Sym Term "$1_{$2}" A
+0.00306748 Sub TermB Sym TermSSE "$1_{$2}" A
+0.00306748 Sub TermB Sym TermSup "$1_{$2}" A
+0.00306748 Sub TermB Sym TermSub "$1_{$2}" A
+0.00306748 Sup TermP BrTerm Term "$1^{$2}" A
+0.00306748 Sup TermP BrTerm TermSSE "$1^{$2}" A
+0.00306748 Sup TermP BrTerm TermSub "$1^{$2}" A
+0.00306748 Sup TermP BrTerm TermSup "$1^{$2}" A
+0.00306748 Sub TermB BrTerm Term "$1_{$2}" A
+0.00306748 Sub TermB BrTerm TermSSE "$1_{$2}" A
+0.00306748 Sub TermB BrTerm TermSub "$1_{$2}" A
+0.00306748 Sub TermB BrTerm TermSup "$1_{$2}" A
+0.85889572 Sup TermP Sym Sym "$1^{$2}" A
+0.84355831 Sub TermB Sym Sym "$1_{$2}" A
+0.07055215 Sup TermP BrTerm Sym "$1^{$2}" A
+0.07055215 Sub TermB BrTerm Sym "$1_{$2}" A
+0.01840491 Sup TermP Sym UnTerm "$1^{$2}" A
+0.01840491 Sub TermB Sym UnTerm "$1_{$2}" A
+0.00613497 Sup TermP BrTerm UnTerm "$1^{$2}" A
+0.00613497 Sub TermB BrTerm UnTerm "$1_{$2}" A
+1.00000000 SSE TermSSE TermB TermP "$1^{$2}" A
+0.05900305 V BigOpTerm Term BigOpV "$2^{$1}" B
+0.00101729 V BigOpTerm TermSSE BigOpV "$2^{$1}" B
+0.00101729 V BigOpTerm TermSub BigOpV "$2^{$1}" B
+0.00101729 V BigOpTerm TermSup BigOpV "$2^{$1}" B
+0.01322482 V BigOpTerm UnTerm BigOpV "$2^{$1}" B
+0.36622584 V BigOpTerm Sym BigOpV "$2^{$1}" B
+0.63125002 V BigOpV BigOp Term "$1_{$2}" A
+0.00208333 V BigOpV BigOp TermSSE "$1_{$2}" A
+0.00208333 V BigOpV BigOp TermSub "$1_{$2}" A
+0.00208333 V BigOpV BigOp TermSup "$1_{$2}" A
+0.00625000 V BigOpV BigOp UnTerm "$1_{$2}" A
+0.36041668 V BigOpV BigOp Sym "$1_{$2}" A
+0.03763988 V BigOpTerm BigOp Term "$1_{$2}" A
+0.00101729 V BigOpTerm BigOp TermSSE "$1_{$2}" A
+0.00101729 V BigOpTerm BigOp TermSub "$1_{$2}" A
+0.00101729 V BigOpTerm BigOp TermSup "$1_{$2}" A
+0.00101729 V BigOpTerm BigOp UnTerm "$1_{$2}" A
+0.03560529 V BigOpTerm BigOp Sym "$1_{$2}" A
+0.00101729 Sub BigOpTerm BigOp Term "$1_{$2}" A
+0.00101729 Sub BigOpTerm BigOp TermSSE "$1_{$2}" A
+0.00101729 Sub BigOpTerm BigOp TermSub "$1_{$2}" A
+0.00101729 Sub BigOpTerm BigOp TermSup "$1_{$2}" A
+0.00101729 Sub BigOpTerm BigOp UnTerm "$1_{$2}" A
+0.01119023 Sub BigOpTerm BigOp Sym "$1_{$2}" A
+0.19230770 Sub BigOpSub BigOp Term "$1_{$2}" A
+0.00641026 Sub BigOpSub BigOp TermSSE "$1_{$2}" A
+0.01923077 Sub BigOpSub BigOp TermSub "$1_{$2}" A
+0.00641026 Sub BigOpSub BigOp TermSup "$1_{$2}" A
+0.00641026 Sub BigOpSub BigOp UnTerm "$1_{$2}" A
+0.78205127 Sub BigOpSub BigOp Sym "$1_{$2}" A
+0.05128205 Sup BigOpSup BigOp Term "$1_{$2}" A
+0.00641026 Sup BigOpSup BigOp TermSSE "$1_{$2}" A
+0.00641026 Sup BigOpSup BigOp TermSub "$1_{$2}" A
+0.00641026 Sup BigOpSup BigOp TermSup "$1_{$2}" A
+0.05128205 Sup BigOpSup BigOp UnTerm "$1_{$2}" A
+0.89102566 Sup BigOpSup BigOp Sym "$1_{$2}" A
+0.15869786 SSE BigOpTerm BigOpSub BigOpSup "$1^{$2}" A
+0.00101729 Sup BigOpTerm BigOpV Term "$1^{$2}" B
+0.00101729 Sup BigOpTerm BigOpV TermSSE "$1^{$2}" B
+0.00101729 Sup BigOpTerm BigOpV TermSub "$1^{$2}" B
+0.00101729 Sup BigOpTerm BigOpV TermSup "$1^{$2}" B
+0.00101729 Sup BigOpTerm BigOpV UnTerm "$1^{$2}" B
+0.04577823 Sup BigOpTerm BigOpV Sym "$1^{$2}" B
+0.01859233 H Term BigOpTerm Term "$1 $2" M
+0.00040952 H Term BigOpTerm TermSSE "$1 $2" M
+0.00275745 H Term BigOpTerm TermSub "$1 $2" M
+0.00283936 H Term BigOpTerm TermSup "$1 $2" M
+0.00032762 H Term BigOpTerm UnTerm "$1 $2" M
+0.00191111 H Term BigOpTerm Sym "$1 $2" M
+0.00589713 H Term BigOp Term "$1 $2" M
+0.00002730 H Term BigOp TermSSE "$1 $2" M
+0.00043682 H Term BigOp TermSub "$1 $2" M
+0.00133777 H Term BigOp TermSup "$1 $2" M
+0.00016381 H Term BigOp UnTerm "$1 $2" M
+0.00439554 H Term BigOp Sym "$1 $2" M
+0.26754832 V BigOpTerm Limit SubLimit "$1_{$2}" A
+0.00380228 H SubLimit Digit ArrTerm "$1 $2" M
+0.99239546 H SubLimit LetterMin ArrTerm "$1 $2" M
+0.00760456 H SubLimit LetterCap ArrTerm "$1 $2" M
+0.00380228 H SubLimit Greek ArrTerm "$1 $2" M
+0.00380228 H SubLimit Term ArrTerm "$1 $2" M
+0.00380228 H SubLimit TermSSE ArrTerm "$1 $2" M
+0.00380228 H SubLimit TermSub ArrTerm "$1 $2" M
+0.00380228 H SubLimit TermSup ArrTerm "$1 $2" M
+0.20152092 H ArrTerm Arrow Term "$1 $2" M
+0.00380228 H ArrTerm Arrow TermSSE "$1 $2" M
+0.01901141 H ArrTerm Arrow TermSub "$1 $2" M
+0.00380228 H ArrTerm Arrow TermSup "$1 $2" M
+0.14828898 H ArrTerm Arrow UnTerm "$1 $2" M
+0.63117874 H ArrTerm Arrow Sym "$1 $2" M
+0.00005460 H Term Digit DeSeDig "$1$2" M
+1.00000000 H Float Digit DeSeDig "$1$2" M
+0.50000000 H DeSeDig DecSep Digit "$1$2" B
+0.50000000 Sup DeSeDig DecSep Digit "$1$2" B
+0.00921238 H Digit Digit Digit "$1$2" M
+0.00019339 Sup TermSup Float Term "$1^{$2}" A
+0.00019339 Sup TermSup Float TermSSE "$1^{$2}" A
+0.00019339 Sup TermSup Float TermSup "$1^{$2}" A
+0.00019339 Sup TermSup Float TermSub "$1^{$2}" A
+0.00019339 Sup TermSup Float Sym "$1^{$2}" A
+0.00019339 Sup TermSup Float UnTerm "$1^{$2}" A
+0.00051873 H Term Term ComListR "$1 $2" M
+0.00002730 H Term TermSSE ComListR "$1 $2" M
+0.00864700 H TermSub TermSub ComListR "$1 $2" M
+0.00058016 H TermSup TermSup ComListR "$1 $2" M
+0.00021841 H Term UnTerm ComListR "$1 $2" M
+0.00013651 H Term Sym ComListR "$1 $2" M
+0.00002730 H Term CDots ComListR "$1 $2" M
+0.00002730 Sup Term LDots ComListR "$1 $2" B
+0.12658228 H ComListR Comma ListR "$1 $2" B
+0.10000000 H ListR Term ComListR "$1 $2" M
+0.10000000 H ListR TermSSE ComListR "$1 $2" M
+0.10000000 H ListR TermSub ComListR "$1 $2" M
+0.10000000 H ListR TermSup ComListR "$1 $2" M
+0.10000000 H ListR UnTerm ComListR "$1 $2" M
+0.10000000 H ListR Sym ComListR "$1 $2" M
+1.00000000 H ListR CDots ComListR "$1 $2" M
+0.10000000 Sub ListR LDots ComListR "$1 $2" B
+0.01265823 Sup ComListR Comma CDots "$1 $2" B
+0.01265823 H ComListR Comma LDots "$1 $2" M
+0.13924050 H ComListR Comma Term "$1 $2" B
+0.01265823 H ComListR Comma TermSSE "$1 $2" B
+0.50632912 H ComListR Comma TermSub "$1 $2" B
+0.02531646 H ComListR Comma TermSup "$1 $2" B
+0.11392405 H ComListR Comma UnTerm "$1 $2" B
+0.08860759 H ComListR Comma Sym "$1 $2" B
+0.23678337 V OpBin hline hline "equal" C
+0.56542057 H CDots Dot 2dot "dots" M
+0.56542057 H CDots 2dot Dot "dots" M
+0.33333334 H LDots Dot 2dot "dots" M
+0.33333334 H LDots 2dot Dot "dots" M
+1.00000000 H 2dot Dot Dot ".." M
+0.00906682 V OpBin OpSum hline "\pm" C
+0.02472528 V OpUn OpSum hline "\pm" C
+0.00076131 H Sym letc os "\cos" M
+0.00076131 H Sym co lets "\cos" M
+0.03931995 H LetterMin letc os "\cos" M
+0.03931995 H LetterMin co lets "\cos" M
+1.00000000 H os leto lets "cos-os" M
+1.00000000 H co letc leto "cos-co" M
+0.00085087 H Sym lets in "\sin" M
+0.00085087 H Sym si letn "\sin" M
+0.05310066 H LetterMin lets in "\sin" M
+0.05310066 H LetterMin si letn "\sin" M
+1.00000000 H in leti letn "sin-in" M
+1.00000000 H si lets leti "sin-si" M
+0.00134348 H Sym letl og "\log" M
+0.00134348 H Sym lo letg "\log" M
+0.01932295 H LetterMin letl og "\log" M
+0.01932295 H LetterMin lo letg "\log" M
+1.00000000 H og leto letg "log-og" M
+1.00000000 H lo letl leto "log-lo" M
+1.00000000 H Limit letl im "\lim" M
+1.00000000 H Limit li letm "\lim" M
+1.00000000 H im leti letm "lim-im" M
+1.00000000 H li letl leti "lim-li" M
+0.00094044 H Sym lett an "\tan" M
+0.00094044 H Sym ta letn "\tan" M
+0.01797483 H LetterMin lett an "\tan" M
+0.01797483 H LetterMin ta letn "\tan" M
+1.00000000 H an leta letn "tan-an" M
+1.00000000 H ta lett leta "tan-ta" M
+0.00004478 H Sym lett letg "\tg" M
+0.00969452 V OpBin sgt hline "\geq" C
+0.01436742 V OpBin slt hline "\leq" C
+0.00990375 V OpBin Dot hl_dot "\div" B
+1.00000000 V hl_dot hline Dot "-." A
+1.00000000 V Facto Bar Dot "!" C
