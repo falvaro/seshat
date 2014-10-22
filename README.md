@@ -16,7 +16,7 @@ thesis. He is a member of the [PRHLT research center] [1] at
 
 *Seshat* represents a state-of-the-art system that has participated in
 several [international competitions] [3], and it was awarded the best
-system trained on the competition dataset
+system trained on the competition dataset in:
 
 - Mouchère H., Viard-Gaudin C., Zanibbi R., Garain U.
   *ICFHR 2014 Competition on Recognition of On-line Handwritten 
