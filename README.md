@@ -14,16 +14,15 @@ This parser has been developed by Francisco Álvaro as part of his PhD
 thesis. He is a member of the [PRHLT research center] [1] at
 [Universitat Politècnica de València] [2].
 
-*Seshat* represents a state-of-the-art system that has recently
-participated in several [international competitions] [3]. A
-preliminary version of *seshat* was awarded the best system using
-training set in
+*Seshat* represents a state-of-the-art system that has participated in
+several [international competitions] [3], and it was awarded the best
+system trained on the competition dataset
 
-- Mouchère H., Viard-Gaudin C., Zanibbi R., Garain U., Kim D. H. and Kim J. H.
-  *ICDAR 2013 CROHME - Third International Competition on Recognition
-  of Online Mathematical Expressions*.
-  International Conference on Document Analysis and Recognition
-  (ICDAR), Washington DC, USA (2013)
+- Mouchère H., Viard-Gaudin C., Zanibbi R., Garain U.
+  *ICFHR 2014 Competition on Recognition of On-line Handwritten 
+   Mathematical Expressions (CROHME 2014)*.
+  International Conference on Frontiers in Handwriting Recognition (ICFHR),
+  Crete Island, Greece (2014)
 
 The math expression recognition model that *seshat* implements is the
 main part of my PhD research. It is in the process of being published,

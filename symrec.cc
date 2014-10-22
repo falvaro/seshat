@@ -225,7 +225,7 @@ int SymRec::getNClases() {
   return C;
 }
 
-//Devuelve el tipo de simbolo de la clase
+//Returns the type of symbol of class k
 int SymRec::symType(int k) {
   return type[k];
 }

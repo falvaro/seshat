@@ -56,8 +56,6 @@ class SymRec{
   
   int C; //Number of classes
   
-  void HViteON(const int NB);
-  void HViteOFF(const int NB);
   int  classify(Sample *M, SegmentHyp *SegHyp, const int NB, int *vclase, float *vpr, int *as, int *ds);
   void BLSTMclassification( Mdrnn *net, DataSequence *seq, pair<float,int> *claspr, const int NB );
   
