@@ -92,7 +92,7 @@ can proceed with the installation of *seshat* as follows:
 
  4. Compile *seshat*
 
-        $ make
+      $ make
 
 As a result, you will have the executable file "*seshat*" ready to
 recognize handwritten math expressions.
@@ -102,19 +102,21 @@ Example of usage
 ----------------
 Run *seshat* without arguments and it will display the command-line interface:
 
-$Usage: ./seshat -c config -i input [-o output] [-r render.pgm]
-$
-$  -c config: set the configuration file
-$  -i input:  set the input math expression file
-$  -o output: save recognized expression to 'output' file (InkML format)
-$  -r render: save in 'render' the image representing the input expression (PGM format)
-$  -d graph:  save in 'graph' the description of the recognized tree (DOT format)
+```
+$ Usage: ./seshat -c config -i input [-o output] [-r render.pgm]
+
+  -c config: set the configuration file
+  -i input:  set the input math expression file
+  -o output: save recognized expression to 'output' file (InkML format)
+  -r render: save in 'render' the image representing the input expression (PGM format)
+  -d graph:  save in 'graph' the description of the recognized tree (DOT format)
+```
 
 There are two example math expressions in folder "SampleMathExps". The
 following command will recognize the expression `(x+y)^2` encoded in
 "exp.scgink"
 
-$ ./seshat -c Config/CONFIG -i SampleMathExps/exp.scgink -o out.inkml -r render.pgm -d out.dot
+	$ ./seshat -c Config/CONFIG -i SampleMathExps/exp.scgink -o out.inkml -r render.pgm -d out.dot
 
 This command outputs several information through the standard output, where the last line will
 provide the LaTeX string of the recognized math expression. Furthermore:
@@ -127,7 +129,7 @@ provide the LaTeX string of the recognized math expression. Furthermore:
   format will be saved in "out.dot". The representation of the graph
   in, for example, postscript format can be obtained as follows
 
-  $ dot -o out.ps out.dot -Tps
+       	  $ dot -o out.ps out.dot -Tps
 
 It should be noted that only options "-c" and "-i" are mandatory.
 
