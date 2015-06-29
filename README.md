@@ -28,7 +28,7 @@ The math expression recognition model that *seshat* implements is the
 main part of my PhD thesis. 
 
  - Francisco Álvaro (advisors: Joan-Andreu Sánchez and José-Miguel Benedí).
-   [Mathematical Expression Recognition based on Probabilistc Grammars][13].
+   [Mathematical Expression Recognition based on Probabilistic Grammars][13].
    Doctor of Philosophy in Computer Science,
    Universitat Politècnica de València, 2015.
 
