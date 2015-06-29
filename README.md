@@ -11,7 +11,7 @@ http://cat.prhlt.upv.es/mer/
 where *seshat* is the underlying engine.
 
 This parser has been developed by Francisco Álvaro as part of his PhD
-thesis. He is a member of the [PRHLT research center] [1] at
+thesis while he was a member of the [PRHLT research center] [1] at
 [Universitat Politècnica de València] [2].
 
 *Seshat* represents a state-of-the-art system that has participated in
@@ -25,30 +25,12 @@ system trained on the competition dataset in:
   Crete Island, Greece (2014)
 
 The math expression recognition model that *seshat* implements is the
-main part of my PhD research. It is in the process of being published,
-but you might find interesting the following related references.
+main part of my PhD thesis. 
 
-The model is based on parsing 2D-SCFG and it is an evolution of:
-
- - Francisco Álvaro, Joan-Andreu Sánchez, José-Miguel Benedí.
-   *Recognition of On-line Handwritten Mathematical Expressions Using
-   2D Stochastic Context-Free Grammars and Hidden Markov Models*.
-   Pattern Recognition Letters, 2014.
-
-The BLSTM-RNN symbol classifier used is described in:
-
- - Francisco Álvaro, Joan-Andreu Sánchez, José-Miguel Benedí.
-   *Offline Features for Classifying Handwritten Math Symbols with
-   Recurrent Neural Networks*.
-   International Conference on Pattern Recognition (ICPR), 2014.
-
-Spatial relationships classification is presented in:
-
- - Francisco Álvaro and Richard Zanibbi.
-   *A Shape-Based Layout Descriptor for Classifying Spatial
-   Relationships in Handwritten Math*.
-   ACM Symposium on Document Engineering (DocEng), 2013.
-
+ - Francisco Álvaro (advisors: Joan-Andreu Sánchez and José-Miguel Benedí).
+   [Mathematical Expression Recognition based on Probabilistc Grammars][13].
+   Doctor of Philosophy in Computer Science,
+   Universitat Politècnica de València, 2015.
 
 License
 -------
@@ -136,15 +118,15 @@ It should be noted that only options "-c" and "-i" are mandatory.
 
 Citations
 ---------
-Meanwhile a full description of the *seshat* parser is published, if
-you use *seshat* for your research, please cite the following
-reference:
+If you use *seshat* for your research, please cite the following reference:
 
 <pre>
-@misc{seshat,
-Author = {Francisco Alvaro},
-Title = {{SESHAT: Parser for Handwritten Math Expression Recognition}},
-howpublished = {\url{https://github.com/falvaro/seshat}}
+@PhdThesis{AlvaroPhD15,
+title = "{Mathematical Expression Recognition based on Probabilistic Grammars}",
+author = "Francisco \'Alvaro",
+school = "Universitat Polit\`ecnica de Val\`encia",
+month = jun,
+year = "2015"
 }
 </pre>
 
@@ -174,3 +156,4 @@ the [God of Knowledge] [12] according to Egyptian mythology.
 [10]: https://www.prhlt.upv.es/page/member?user=dortiz
 [11]: https://github.com/daormar/thot
 [12]: http://en.wikipedia.org/wiki/Thoth
+[13]: http://hdl.handle.net/10251/51665
