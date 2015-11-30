@@ -24,8 +24,13 @@ system trained on the competition dataset in:
   International Conference on Frontiers in Handwriting Recognition (ICFHR),
   Crete Island, Greece (2014)
 
-The math expression recognition model that *seshat* implements is the
-main part of my PhD thesis. 
+The math expression recognition model that *seshat* implements is described in:
+
+- Francisco Álvaro, Joan-Andreu Sánchez and José-Miguel Benedí.
+  *An Integrated Grammar-based Approach for Mathematical Expression Recognition*.
+  Pattern Recognition, pp. 135-147, 2016
+
+and it is the main part of my PhD thesis. 
 
  - Francisco Álvaro (advisors: Joan-Andreu Sánchez and José-Miguel Benedí).
    [Mathematical Expression Recognition based on Probabilistic Grammars][13].
