@@ -121,15 +121,16 @@ Citations
 If you use *seshat* for your research, please cite the following reference:
 
 <pre>
-@PhdThesis{AlvaroPhD15,
-title = "{Mathematical Expression Recognition based on Probabilistic Grammars}",
-author = "Francisco \'Alvaro",
-school = "Universitat Polit\`ecnica de Val\`encia",
-month = jun,
-year = "2015"
+@article{AlvaroPR16,
+title = "An integrated grammar-based approach for mathematical expression recognition",
+author = "Francisco \'Alvaro and Joan-Andreu S\'anchez and Jos\'e-Miguel Bened\'{\i}",
+journal = "Pattern Recognition",
+volume = "51",
+pages = "135 - 147",
+year = "2016",
+issn = "0031-3203"
 }
 </pre>
-
 
 
 Why *seshat*?
