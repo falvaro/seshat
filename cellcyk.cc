@@ -24,7 +24,7 @@ CellCYK::CellCYK(int n, int ncc) {
   nc = ncc;
   talla = 0;
 
-  //Create (empty) hypotheses
+  //Create (empty) hypotheses test22
   noterm = new Hypothesis*[nnt];
   for(int i=0; i<nnt; i++)
     noterm[i] = NULL;
