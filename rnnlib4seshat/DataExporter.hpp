@@ -114,7 +114,7 @@ template <typename T> struct ParamVal: public Val {
   }
 
   bool load(istream& in, ostream& out = cout) {
-    return (in >> param);
+    return (bool)(in >> param);
   }
 };
 
