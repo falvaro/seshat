@@ -66,7 +66,7 @@ struct BlockLayer: public Layer {
       blockIterator(blockShape),
       outSeqShape(this->num_seq_dims()) {
     assert(blockShape.size() == this->num_seq_dims());
-    assert(!in(blockShape, 0));
+    assert(std::find(blockShape.begin(), blockShape.end(), 0) == blockShape.end());
     wc->link_layers(
         this->source->name, this->name,
         this->source->name + "_to_" + this->name);

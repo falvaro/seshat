@@ -45,7 +45,7 @@ struct ConfigFile {
       string line;
       getline(instream, line);
       if(name[0] != '#') {
-        if (in(name, readLineChar) && line.size() > 1) {
+        if (name.find(readLineChar) != std::string::npos && line.size() > 1) {
           val += line;
         }
         params[name] = val;
@@ -130,7 +130,7 @@ struct ConfigFile {
   void warn_unused(ostream& out, bool removeUnused = true) {
     Vector<string> unused;
     LOOP(const PSS& p, params) {
-      if (!in(used, p.first)) {
+      if (std::find(used.begin(), used.end(), p.first) == used.end()) {
         unused += p.first;
       }
     }

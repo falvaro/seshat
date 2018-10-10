@@ -96,7 +96,8 @@ struct Mdrnn {
     bidirectional = conf.get_list<bool>("bidirectional", true, data.numDims);
     symmetry = conf.get_list<bool>("symmetry", false, data.numDims);
     inputBlock = conf.get_list<size_t>("inputBlock", 0, data.numDims);
-    inputBlockLayer = in(inputBlock, 0) ? 0 : add_layer(new BlockLayer(inputLayer, inputBlock, wc, deh), false);
+    bool zero_in_input = std::find(inputBlock.begin(), inputBlock.end(), 0) != inputBlock.end();
+    inputBlockLayer = zero_in_input ? 0 : add_layer(new BlockLayer(inputLayer, inputBlock, wc, deh), false);
     bias = new BiasLayer(weight, deh);
   }
 
