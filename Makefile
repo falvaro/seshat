@@ -1,6 +1,6 @@
 CC=g++
 LINK=-lxerces-c -lm
-FLAGS = -O3 -Wno-unused-result #-I/path/to/boost/
+FLAGS = -O3 -std=c++11 -Wno-unused-result #-I/path/to/boost/
 
 OBJFEAS=symfeatures.o featureson.o online.o
 OBJMUESTRA=sample.o stroke.o

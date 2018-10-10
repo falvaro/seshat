@@ -45,14 +45,14 @@ void perturb_weight(real_t& weight, real_t stdDev, bool additive)
 }
 
 
-template <class R> void perturb_weights(R& weights, real_t stdDev, bool additive = true)
+template <class R> void perturb_weights(R& weights, real_t stdDev, bool additive)
 {
 	LOOP(real_t& w, weights)
 	{
 		perturb_weight(w, stdDev, additive);
 	}
 }
-template <class R> void perturb_weights(R& weights, R& stdDevs, bool additive = true)
+template <class R> void perturb_weights(R& weights, R& stdDevs, bool additive)
 {
 	assert(boost::size(weights) == boost::size(stdDevs));
 	LOOP(int i, indices(weights))
