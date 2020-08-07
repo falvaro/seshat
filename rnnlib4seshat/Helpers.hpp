@@ -388,10 +388,10 @@ static UnaryFunction for_each(R& r, UnaryFunction f) {
   return for_each(boost::begin(r), boost::end(r), f);
 }
 template <class R, class T> static bool in(const R& r, const T& t) {
-  return find(r, t) != boost::end(r);
+  return ::find(r, t) != boost::end(r);
 }
 template <class R, class T> static size_t index(const R& r, const T& t) {
-  return distance(boost::begin(r), find(r, t));
+  return distance(boost::begin(r), ::find(r, t));
 }
 template <class R> static void reverse(R& r) {
   reverse(boost::begin(r), boost::end(r));
